@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">	
+
+<head>
+	<meta charset="utf-8">
+	<title> GO LANG </title>
+</head>
+
+<body>
+
+	<h1> TASKS </h1>
+
+	<ul>
+		{{range .}}
+
+			<li>{{.Name}} - {{if .Done}}Done{{else}}Open{{end}}</li>
+
+		{{end}}
+	</ul>
+
+</body>
+
+</html>
